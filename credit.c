@@ -11,7 +11,6 @@ int main(void)
 {
     long cardnumber = requestCN();
     int sum1 = calc_sum1(cardnumber);
-    // printf("n = %i\n", sum1);
     string namecard = name_card(cardnumber);
     printf("%s\n", namecard);
 }
